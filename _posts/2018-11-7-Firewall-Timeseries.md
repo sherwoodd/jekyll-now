@@ -7,11 +7,13 @@ Time series analysis attempts to track individual characteristics (e.g. Source I
 
 Owner: [David Sherwood](https://github.boozallencsn.com/sherwood-david)
 
-Resources: https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality , https://pdfs.semanticscholar.org/5a26/068dc9e216591f3afde777566c0469dcae0f.pdf
+Resources: 
+* <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality> 
+* <https://pdfs.semanticscholar.org/5a26/068dc9e216591f3afde777566c0469dcae0f.pdf>
 
 Data Sources: 
 * Firewall (checkpoint, juniper)
 
 EDA: Extract counts of source IPs and destination ports over time - typically in 5 min intervals
 
-Github: (https://github.boozallencsn.com/commercial-analytics/Lighthouse-POC-analytics/blob/master/Firewall-Timeseries-POC.ipynb)
+[Github](https://github.boozallencsn.com/commercial-analytics/Lighthouse-POC-analytics/blob/master/Firewall-Timeseries-POC.ipynb)
