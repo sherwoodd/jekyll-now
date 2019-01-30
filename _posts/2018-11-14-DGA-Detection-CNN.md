@@ -12,3 +12,8 @@ Resources: TFLearn was used to create a basic 4 layer CNN on first 300 character
 Data Sources: 
 * Web Proxy (Bluecoat)
 * Public Dataset (Phishtank)
+---
+layout: post
+title: CNN for DGAs (Domain Generating Algorithms)
+---
+
