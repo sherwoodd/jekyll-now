@@ -4,6 +4,9 @@ title: Domain Generation Algorithm Detection
 ---
 Detects DGAs through machine learning and other techniques
 
-Resources: …
+Resources: <…>
 
 Owner: Zander Lanfried
+Data Sources:
+* DNS
+* DHCP

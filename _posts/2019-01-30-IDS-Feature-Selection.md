@@ -1,5 +1,0 @@
----
-layout: post
-title: Feature Selection for Intrusion Detection Systems
----
-It is tedious to test the match between an input element and a rule (signature) by sequentially comparing every element. To improve this, we can cluster rules according to selected criteria. For instance we can put rules with the same constraints in the same group. Kruegel and Toth (2003) introduced a decision tree to detect the most discriminating features for a rule set and allowed it to perform a parallel evaluation of every feature.

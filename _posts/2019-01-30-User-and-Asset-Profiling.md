@@ -1,5 +1,0 @@
----
-layout: post
-title: User/Asset Behavior Profiling
----
-In contrast to User/Asset Behavior Clustering, this analytic attempts to track the patterns of a particular user relative to their own past behavior (rather than looking for anomalies across users). We use event log data (endpoint) to contruct typical process patterns based on the time of day for a certain user, and track similarity day-to-day or week-to-week.

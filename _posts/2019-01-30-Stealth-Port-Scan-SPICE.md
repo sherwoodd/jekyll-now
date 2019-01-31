@@ -1,5 +1,0 @@
----
-layout: post
-title: Port Scanning Detection (SPICE)
----
-Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Traditional IDS use the occurrence of connections on resource IPs within time windows to look for port scanning, and hence miss stealthier slow-randomized attacks. This analytic seeks to assign an anomaly score to estimate the total information of a scan footprint based on the conditional probability distribution of normal traffic packets.

@@ -1,5 +1,0 @@
----
-layout: post
-title: Parallel Detection Engine
----
-A parallel detection system provides a why to systemmatically combine alerts from an ML anomaly detection system and a rule based IDS or custom SIEM alerts using a resolver function to reduce false positives.

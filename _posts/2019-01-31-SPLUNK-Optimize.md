@@ -4,6 +4,7 @@ title: Splunk Optimization
 ---
 …
 
-Resources: …
+Resources: <…>
 
 Owner: Zander Lanfried
+Data Sources:
