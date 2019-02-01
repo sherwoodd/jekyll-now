@@ -47,8 +47,8 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "https://pages.github.boozallencsn.com/commercial-analytics/"
-
+#baseurl: "https://pages.github.boozallencsn.com/commercial-analytics/"
+baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -76,6 +76,14 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Search plugin
+# run this command to update algolia search index: 
+# ALGOLIA_API_KEY='697ec685f9e0ae578991f2004d823e69' bundle exec jekyll algolia
+algolia:
+  application_id: DTPR54WAFN
+  index_name: ucp_search
+  search_only_api_key: 035b51d8a32358cea427dcfd8cfba994
 
 # Exclude these files from your production _site
 exclude:

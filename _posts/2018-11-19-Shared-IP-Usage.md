@@ -7,5 +7,22 @@ Identify shared use of the same IP address to login to to the same account.  Thi
 Resources: <…>
 
 Owner: Daniel Liebermann
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
 * Databases
+
+**Data Manipulation/EDA:** ...
+
+[Github](...)
+
+**Technical details:** Refer for review
+
+### Reltional
+----
+**Tactics:**
+* Discovery
+
+**Motivations:**
+* All

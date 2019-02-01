@@ -7,5 +7,27 @@ Time series analysis attempts to track individual characteristics (e.g. Source I
 Resources: <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality , https://pdfs.semanticscholar.org/5a26/068dc9e216591f3afde777566c0469dcae0f.pdf>
 
 Owner: David Sherwood
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
 * Firewall
+
+**Data Manipulation/EDA:** Extract counts of source IPs and destination ports over time - typically in 5 min intervals
+
+[Github](https://github.boozallencsn.com/commercial-analytics/Lighthouse-POC-analytics/blob/master/Firewall-Timeseries-POC.ipynb)
+
+**Technical details:** …
+
+### Reltional
+----
+**Tactics:**
+* Pre-ATT&CK
+* Initial Access
+* Discovery
+* Exfiltration
+
+**Motivations:**
+* Sabotage
+* Vandalism
+* Theft

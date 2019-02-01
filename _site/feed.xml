@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-01T12:03:50-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cyber Analytics Use Case Library</title><subtitle>Commercial Advanced Analytics</subtitle><entry><title type="html">Analytics Assessment Frameworks</title><link href="http://localhost:4000/Analytics-Framework/" rel="alternate" type="text/html" title="Analytics Assessment Frameworks" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/Analytics-Framework</id><content type="html" xml:base="http://localhost:4000/Analytics-Framework/">&lt;p&gt;Frameworks that are useful when evaulating client cyber security analytic needs&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;https://attack.mitre.org/&quot;&gt;https://attack.mitre.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: Zander Lanfried&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Frameworks that are useful when evaulating client cyber security analytic needs</summary></entry><entry><title type="html">Port Scanning Detection (SPICE)</title><link href="http://localhost:4000/Stealth-Port-Scan-SPICE/" rel="alternate" type="text/html" title="Port Scanning Detection (SPICE)" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/Stealth-Port-Scan-SPICE</id><content type="html" xml:base="http://localhost:4000/Stealth-Port-Scan-SPICE/">&lt;p&gt;Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Traditional IDS use the occurrence of connections on resource IPs within time windows to look for port scanning, and hence miss stealthier slow-randomized attacks. This analytic seeks to assign an anomaly score to estimate the total information of a scan footprint based on the conditional probability distribution of normal traffic packets.&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;http://hoagland.org/papers/Practical%20automated%20detection%20of%20stealthy%20portscans.pdf&quot;&gt;http://hoagland.org/papers/Practical%20automated%20detection%20of%20stealthy%20portscans.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Network Gear&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discovery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sabotage&lt;/li&gt;
+  &lt;li&gt;Vandalism&lt;/li&gt;
+  &lt;li&gt;Theft&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Traditional IDS use the occurrence of connections on resource IPs within time windows to look for port scanning, and hence miss stealthier slow-randomized attacks. This analytic seeks to assign an anomaly score to estimate the total information of a scan footprint based on the conditional probability distribution of normal traffic packets.</summary></entry><entry><title type="html">User/Asset Behavior Profiling</title><link href="http://localhost:4000/User-and-Asset-Profiling/" rel="alternate" type="text/html" title="User/Asset Behavior Profiling" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/User-and-Asset-Profiling</id><content type="html" xml:base="http://localhost:4000/User-and-Asset-Profiling/">&lt;p&gt;In contrast to User/Asset Behavior Clustering, this analytic attempts to track the patterns of a particular user relative to their own past behavior (rather than looking for anomalies across users). We use event log data (endpoint) to contruct typical process patterns based on the time of day for a certain user, and track similarity day-to-day or week-to-week.&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;https://pdfs.semanticscholar.org/1a76/f0539a9badf317b0b35ea92f734c62467138.pdf?_ga=2.81780627.529039304.1547837895-752466249.1547837895&quot;&gt;https://pdfs.semanticscholar.org/1a76/f0539a9badf317b0b35ea92f734c62467138.pdf?_ga=2.81780627.529039304.1547837895-752466249.1547837895&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Network Gear&lt;/li&gt;
+  &lt;li&gt;Endpoint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; Starting with system call data (sendmail) and network data (tcpdump), we can use data mining algorithms to find common patterns. Two algorithms were used including the association rules algorithm and the frequent episodes algorithm. These algorithms can be used to compute the intra- and inter- audit record patterns, which are essential in describing program or user behavior.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; To measure the similarity between a new pattern and the historical profile patterns, we introduced a similarity score, which is defined as m/n, where m is the number of new patterns that match historical normal profile patterns, and n is the number of all new patterns for detection. The higher the similarity score, the more possible the user performs normal behaviors in cyber systems&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">In contrast to User/Asset Behavior Clustering, this analytic attempts to track the patterns of a particular user relative to their own past behavior (rather than looking for anomalies across users). We use event log data (endpoint) to contruct typical process patterns based on the time of day for a certain user, and track similarity day-to-day or week-to-week.</summary></entry><entry><title type="html">Splunk Optimization</title><link href="http://localhost:4000/SPLUNK-Optimize/" rel="alternate" type="text/html" title="Splunk Optimization" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/SPLUNK-Optimize</id><content type="html" xml:base="http://localhost:4000/SPLUNK-Optimize/">&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;Resources: &amp;lt;…&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: Zander Lanfried&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">…</summary></entry><entry><title type="html">Sigma</title><link href="http://localhost:4000/SIGMA/" rel="alternate" type="text/html" title="Sigma" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/SIGMA</id><content type="html" xml:base="http://localhost:4000/SIGMA/">&lt;p&gt;Using SIGMA to make log event analysis shareable across platforms&lt;/p&gt;
+
+&lt;p&gt;Resources: &amp;lt;…&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: Zander Lanfried&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Cyb3rWard0g/sigma&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Using SIGMA to make log event analysis shareable across platforms</summary></entry><entry><title type="html">Random Cut Forest for Time Series Anomaly Detection</title><link href="http://localhost:4000/Random-Cut-Forest-AD/" rel="alternate" type="text/html" title="Random Cut Forest for Time Series Anomaly Detection" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/Random-Cut-Forest-AD</id><content type="html" xml:base="http://localhost:4000/Random-Cut-Forest-AD/">&lt;p&gt;Amazon SageMaker provides an out-of-the-box algorithm for near-real time anomaly detection on streaming time series data&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;https://docs.aws.amazon.com/sagemaker/latest/dg/randomcutforest.html&quot;&gt;https://docs.aws.amazon.com/sagemaker/latest/dg/randomcutforest.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Network Gear&lt;/li&gt;
+  &lt;li&gt;Web Proxy&lt;/li&gt;
+  &lt;li&gt;Endpoint&lt;/li&gt;
+  &lt;li&gt;DNS&lt;/li&gt;
+  &lt;li&gt;DHCP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; While you can technically run Amazon RCF for anywhere, it is easiest for training to have it in an s3 bucket as a time series array&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/random_cut_forest/random_cut_forest.ipynb&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; Once trained, it is easy to make inferences to the model and return an “anomaly score” for each data point. The model can be extended to inferences on streaming data and deployed as an endpoint.&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Amazon SageMaker provides an out-of-the-box algorithm for near-real time anomaly detection on streaming time series data</summary></entry><entry><title type="html">Port Scanning Detection (Logistic Regression)</title><link href="http://localhost:4000/Port-Scanning-Regression/" rel="alternate" type="text/html" title="Port Scanning Detection (Logistic Regression)" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/Port-Scanning-Regression</id><content type="html" xml:base="http://localhost:4000/Port-Scanning-Regression/">&lt;p&gt;Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Several scan detection techniques do not scale to very large networks where packet-level information may not be available. This analytic uses a Baysian logistic regression to detect port scanning using only unidirectional flow data.&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1691061&quot;&gt;https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1691061&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Network Gear&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; Researchers started with 21 features, and determined the six most meaningful. The six features included (1) the percentage of traces that appear to have a payload, (2) the percentage of flows with fewer than three packets, (3) the ratio of flag combinations with an ACK flag set to all flows, (4) the average number of source ports per destination IP address, (5) the ratio of the number of unique destination IP addresses to the number of traces, and (6) the ratio of traces with a backscatter-related flag combination such as SYN-ACK to all traces.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; Use these six features as input in logistic regression model to calculate the probability of an event containing a scan. A Bayesian approach to logistic regression modeling was used instead of a traditional one. The Bayesian approach seeks to assign priors to each of the co-efficients based on expert opinion of the contribution each variable makes. (See resources for detailed implementation)&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discovery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sabotage&lt;/li&gt;
+  &lt;li&gt;Vandalism&lt;/li&gt;
+  &lt;li&gt;Theft&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Several scan detection techniques do not scale to very large networks where packet-level information may not be available. This analytic uses a Baysian logistic regression to detect port scanning using only unidirectional flow data.</summary></entry><entry><title type="html">Port Scanning Detection (Threshold Random Walk)</title><link href="http://localhost:4000/Port-Scanning-Random-Walk/" rel="alternate" type="text/html" title="Port Scanning Detection (Threshold Random Walk)" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/Port-Scanning-Random-Walk</id><content type="html" xml:base="http://localhost:4000/Port-Scanning-Random-Walk/">&lt;p&gt;Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Typically scans fall into three categories: vertical scan, horizontal scan, and coordinated scan. This analytic applies ML to network data in search of malicious port scanning behavior&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;http://www.icir.org/vern/papers/portscan-oak04.pdf&quot;&gt;http://www.icir.org/vern/papers/portscan-oak04.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Network Gear&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; It is critical to have data on which connections were successful and which were rejected/failed&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; The resources provide a detailed description of the math, but effectively this method is based on the observation that benign remote sources have more precise knowledge about the targeted hosts and services than scanners, such that their successful connection rate is higher than the scan rate. Hence, different probability thresholds are selected for true positives and false positives.&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discovery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sabotage&lt;/li&gt;
+  &lt;li&gt;Vandalism&lt;/li&gt;
+  &lt;li&gt;Theft&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Typically scans fall into three categories: vertical scan, horizontal scan, and coordinated scan. This analytic applies ML to network data in search of malicious port scanning behavior</summary></entry><entry><title type="html">Parallel Detection Engine</title><link href="http://localhost:4000/Parallel-Detection/" rel="alternate" type="text/html" title="Parallel Detection Engine" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/Parallel-Detection</id><content type="html" xml:base="http://localhost:4000/Parallel-Detection/">&lt;p&gt;A parallel detection system provides a why to systemmatically combine alerts from an ML anomaly detection system and a rule based IDS or custom SIEM alerts using a resolver function to reduce false positives.&lt;/p&gt;
+
+&lt;p&gt;Resources: &lt;a href=&quot;https://pdfs.semanticscholar.org/1d3e/31c07bdc98860336b0970902571315a39c21.pdf?_ga=2.186044973.529039304.1547837895-752466249.1547837895&quot;&gt;https://pdfs.semanticscholar.org/1d3e/31c07bdc98860336b0970902571315a39c21.pdf?_ga=2.186044973.529039304.1547837895-752466249.1547837895&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">A parallel detection system provides a why to systemmatically combine alerts from an ML anomaly detection system and a rule based IDS or custom SIEM alerts using a resolver function to reduce false positives.</summary></entry><entry><title type="html">Feature Selection for Intrusion Detection Systems</title><link href="http://localhost:4000/IDS-Feature-Selection/" rel="alternate" type="text/html" title="Feature Selection for Intrusion Detection Systems" /><published>2019-01-31T00:00:00-05:00</published><updated>2019-01-31T00:00:00-05:00</updated><id>http://localhost:4000/IDS-Feature-Selection</id><content type="html" xml:base="http://localhost:4000/IDS-Feature-Selection/">&lt;p&gt;It is tedious to test the match between an input element and a rule (signature) by sequentially comparing every element. To improve this, we can cluster rules according to selected criteria. For instance we can put rules with the same constraints in the same group. Kruegel and Toth (2003) introduced a decision tree to detect the most discriminating features for a rule set and allowed it to perform a parallel evaluation of every feature.&lt;/p&gt;
+
+&lt;p&gt;Resources: &amp;lt;Page 76 of Data Mining and Machine learning (actual article: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=9ACE76666A2BAE20681C5051B0B5DCB3?doi=10.1.1.10.9927&amp;amp;rep=rep1&amp;amp;type=pdf )&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Owner: David Sherwood&lt;/p&gt;
+
+&lt;h3 id=&quot;technical&quot;&gt;Technical&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Data Sources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Manipulation/EDA:&lt;/strong&gt; …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;...&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical details:&lt;/strong&gt; In the decision tree, the root node corresponded to the set consisting of all rules. The children nodes were the direct subsets that were partitioned from the rule set according to the first feature. Nodes were portioned further until each node had only one rule. Each node was labeled with the feature used for the corresponding partitioning. Each arrow leading from a node to a child was associated with the value of the feature specified in the child node. Each leaf node contained one rule or the rules that could not be distinguished by features.&lt;/p&gt;
+
+&lt;h3 id=&quot;reltional&quot;&gt;Reltional&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tactics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations:&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">It is tedious to test the match between an input element and a rule (signature) by sequentially comparing every element. To improve this, we can cluster rules according to selected criteria. For instance we can put rules with the same constraints in the same group. Kruegel and Toth (2003) introduced a decision tree to detect the most discriminating features for a rule set and allowed it to perform a parallel evaluation of every feature.</summary></entry></feed>

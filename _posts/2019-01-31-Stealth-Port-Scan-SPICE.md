@@ -7,5 +7,24 @@ Attackers will attempt to gain information about a target and look for vulnerabi
 Resources: <http://hoagland.org/papers/Practical%20automated%20detection%20of%20stealthy%20portscans.pdf>
 
 Owner: David Sherwood
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
 * Network Gear
+
+**Data Manipulation/EDA:** ...
+
+[Github](...)
+
+**Technical details:** …
+
+### Reltional
+----
+**Tactics:**
+* Discovery
+
+**Motivations:**
+* Sabotage
+* Vandalism
+* Theft

@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cyber Analytics Use Case Library – Commercial Advanced Analytics</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Commercial Advanced Analytics">
+    <meta property="og:description" content="Commercial Advanced Analytics" />
+    
+    <meta name="author" content="Cyber Analytics Use Case Library" />
+
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Cyber Analytics Use Case Library - Commercial Advanced Analytics" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+    <div class="home">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://media.licdn.com/dms/image/C4E0BAQG6ICM3LgKpPw/company-logo_200_200/0?e=2159024400&v=beta&t=ox13eQy4nH__jxqUcoB43ZsopntfqkLqJrXmMWHPCCY" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Cyber Analytics Use Case Library</a></h1>
+            <p class="site-description">Commercial Advanced Analytics</p>
+          </div>
+
+          <nav>
+            <a href="/">Browse</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div class="container" id="search-searchbar"></div>
+
+    <!--div class="post-list" id="search-hits">
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/User-and-Asset-Profiling/">
+            User/Asset Behavior Profiling
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>In contrast to User/Asset Behavior Clustering, this analytic attempts to track the patterns of a particular user relative to their own past behavior (rather than looking for anomalies across users). We use event log data (endpoint) to contruct typical process patterns based on the time of day for a certain user, and track similarity day-to-day or week-to-week.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Stealth-Port-Scan-SPICE/">
+            Port Scanning Detection (SPICE)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Traditional IDS use the occurrence of connections on resource IPs within time windows to look for port scanning, and hence miss stealthier slow-randomized attacks. This analytic seeks to assign an anomaly score to estimate the total information of a scan footprint based on the conditional probability distribution of normal traffic packets.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/SPLUNK-Optimize/">
+            Splunk Optimization
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>…</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/SIGMA/">
+            Sigma
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Using SIGMA to make log event analysis shareable across platforms</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Random-Cut-Forest-AD/">
+            Random Cut Forest for Time Series Anomaly Detection
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Amazon SageMaker provides an out-of-the-box algorithm for near-real time anomaly detection on streaming time series data</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Port-Scanning-Regression/">
+            Port Scanning Detection (Logistic Regression)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Several scan detection techniques do not scale to very large networks where packet-level information may not be available. This analytic uses a Baysian logistic regression to detect port scanning using only unidirectional flow data.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Port-Scanning-Random-Walk/">
+            Port Scanning Detection (Threshold Random Walk)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Typically scans fall into three categories: vertical scan, horizontal scan, and coordinated scan. This analytic applies ML to network data in search of malicious port scanning behavior</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Parallel-Detection/">
+            Parallel Detection Engine
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>A parallel detection system provides a why to systemmatically combine alerts from an ML anomaly detection system and a rule based IDS or custom SIEM alerts using a resolver function to reduce false positives.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/IDS-Feature-Selection/">
+            Feature Selection for Intrusion Detection Systems
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>It is tedious to test the match between an input element and a rule (signature) by sequentially comparing every element. To improve this, we can cluster rules according to selected criteria. For instance we can put rules with the same constraints in the same group. Kruegel and Toth (2003) introduced a decision tree to detect the most discriminating features for a rule set and allowed it to perform a parallel evaluation of every feature.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/IDS-Analytics/">
+            Supervised Learning for Intrusion Detection Systems
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Traditional IDS take in either network data or process data and generate signatures with are binary codes that represent patterns of behavior. They then attempt to match these signatures with a list of known bad signatures and take an action to stop it. This analytic attemps to improve the signature based detection by performing supervised learning to look for and alert on signatures that are “similar to known bad”</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Dynamic-Thresholding/">
+            Dynamic Thresholding for Time Series Data
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Useful logic to apply a moving threshold based on a rolling standard deviation rather than a fixed value</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Botnet-Detection/">
+            Botnet Panels Detection with Ensembled Decision Trees
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Botnets are covert networks of connected devices with massive computational power that are most often leveraged for large-scale email spam operations or denial of service (DOS) attack campaigns. While the typical method of Botnet detection is manually intensive and require expert knowledge, decisions trees and supervised learning can aid in the detection of new botnets with similar characteristics of known bad panels.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 31, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Analytics-Framework/">
+            Analytics Assessment Frameworks
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Frameworks that are useful when evaulating client cyber security analytic needs</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 15, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/NMAP-Clustering/">
+            NMAP Clustering
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Kmeans clustering technique using results from the NMAP port scanning tool in order to identify groups of similar IP addresses across a large number of ports, e.g. when auditing the security of a network</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 15, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Beaconing/">
+            Beaconing Detection
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>It is common for malware to check in with the command and control server once it has infected a host. This activity is typically done in period time intervals and is referred to as “beaconing”.  This analytic attempts to find these regular pings within common network traffic to provide an early warning sign of infection.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 14, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Analytics-Workflow/">
+            Analytics Workflow Optimization
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Using freely available resources to streamline the analytic workflow under any client conditions</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 11, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/Phishing-Domain-Detection/">
+            Phishing Domain Detection
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Uses supervised machine learning to detect phishing domains from the Certificate Transparency log network</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Jan 10, 2019</span>
+
+        <h2>
+          <a class="post-link" href="/DGA-Detection-Flare/">
+            Domain Generation Algorithm Detection
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Detects DGAs through machine learning and other techniques</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/User-Behavior-Clustering/">
+            User Behavior Clustering (Aggregate)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>The goal of this analytic is to find users that exhibit atypical behavior compared to their peers. This involves performing clustering analysis on a large number of features representing behavior of a particular username  including the frequency of parent and child processes running, the types of hosts they access, the average file size, file extension, drive, etc.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Process-Behavior-AD/">
+            Process Behavior Anomaly Detection
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>The goal of this analytic is to find processes that are behaving abnormally by studying the frequency and ordering of their system calls and sub processes.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Network-Traffic-AD/">
+            Network Traffic Anomaly Detection (One-class SVM/KNN/Cluster-based)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>This paper presents a detailed, three-algorithm approach to anomaly detection to find intrusions in unlabeled data. This algorithm should detect malicious behaviors including stealthy reconnaissance attempts, backdoor service on a well-known standard port, natural failures in the network, new buffer overflow attacks, HTTP traffic on a nonstandard port, intentionally stealthy attacks, variants of existing attacks in new environments, and so on.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Data-Stacking/">
+            Data Stacking on Executables
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>This analytic demonstrates how we can provide deep insights into a single varaible–in this case process counts. By creating a live-histogram of process counts and tracking counts over time, we can provide visibility into “low and slow” tactics by revealing uncommon processes or worms that are spreading throughout the network.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Asset-Behavior-Clustering/">
+            Asset Behavior Clustering (Aggregate)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>The goal of this analytic is to find hosts that exhibit atypical behavior compared to their peers. This involves performing clustering analysis on a large number of features representing behavior of a particular machine including the frequency of parent and child processes running, the types of accounts accessing the machine, the average file size, file extension, drive, etc.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Vulnerability-Mgmt-Scorecard/">
+            Vulnerability Management Scorecard
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Provide scorecards to managers at production sites to track their security hygene progress over time. Incorporates data from a variety of sources to create aggregate views and metrics showing overall vulnerability, update status, and other key descriptions. Previously, client had vulnerability data with no indication of the location/cluster of endpoints. This case involved enriching the data with the site locations, giving a view of the geographic distribution of vulnerability and breakdown of enterprise-wide data into site-specific metrics.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Shared-IP-Usage/">
+            Shared IP Usage
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Identify shared use of the same IP address to login to to the same account.  This is intended to detect a threat actor accessing multiple accounts from the same location in a short time window.  This rule-based logic considers the observation of more than one login from the same IP address within 24 hours (or a relevant time window).</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Endpoint-&-Asset-Management/">
+            Endpoint &amp; Asset Management
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Synthesize multiple scanning log sources to create automated list of active assets. Allows for data from multiple sources to be integrated into a singular resource. Consolidated data is used to create a visual dashboard/tool for analysts to track assets, explore new metrics of vulnerability, and benchmark security across entire enterprise.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Data-Exfiltration-Alerts/">
+            Data Exfiltration Alerts
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Email alerts of top potential data exfiltration events/entities each day. Dashboard detailing each event, and providing context about the characteristics that triggered alert specifically. Leverages combinations of thresholds/rules/outlier detection across multiple data sources (linked by individual user or entity) to create dynamic and holistic measures of anomalous behavior. Information was previously collected by standard security solutions, but not useful until abnormal activity was tracked across multiple tools.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 19, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Anomalous-Login-Activity/">
+            Anomalous Login Activity
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Login activity may not be identifiable as suspicious given a rule or signature-based approach.  This analytics provides a weighted risk score to identify anomalous login activity that can then be screened or review.  This approach considers 12 individual criteria that are weighted and combined.  Weights can be assigned using an analytical hierarchy process with threat experts.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 14, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Email-Levenshtein-Distance/">
+            Levenshtein for spoofing emails/urls
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Some phishing attemps may use domains and emails similar in name to the company they are targeting. (ex. sending an email as rozanski_horaceo@beh.com saying to enter an updated client list and log-in credentials at www.booz-ellen-hamiltin.com/I_LOVE_PHISHING ). Normal Regular expressions wouldn’t pick up on this obvious trick, but comparing sender email addresses and url domains with a list of known Executives/internal domains using a Levenshtein distance would show this.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 14, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/DGA-Detection-CNN/">
+            CNN for DGAs (Domain Generating Algorithms)
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Most URL paths follow some degree of randomness and patterns. DGA’s usually have more randomness as the urls are created in bulk using some algorithm. These patterns may be impossible to detect by humans or even Regex, but Neural Networks have been shown to have high accuracy at tasks like this. Using CNNs on URLs and trained using PhishTank and Proxy labelled Phishing URLs could provide some ‘score’ for phishing attempts which get through the firewall.</p>
+
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Nov 7, 2018</span>
+
+        <h2>
+          <a class="post-link" href="/Firewall-Time-Series/">
+            Firewall Time Series Anomaly Detection
+          </a>
+        </h2>
+
+        <div class="post-snippet"><p>Time series analysis attempts to track individual characteristics (e.g. Source IP and destination ports) over time to find unusual trends or activity at the perimeter of the network. This analytic technique attempts to find traces of port scanning or the initial signs of malware in a network. Time series forecasting and STL decomposition are used to find outliers within a signal that is cyclical or globally trending.</p>
+
+</div>
+      </div>
+    
+    </div-->
+
+    <div id="search-hits" role="main" class="container">
+      <div class="posts">
+  
+    <article class="post">
+
+      <h1><a href="/User-and-Asset-Profiling/">User/Asset Behavior Profiling</a></h1>
+
+      <div class="entry">
+        <p>In contrast to User/Asset Behavior Clustering, this analytic attempts to track the patterns of a particular user relative to their own past behavior (rather than looking for anomalies across users). We use event log data (endpoint) to contruct typical process patterns based on the time of day for a certain user, and track similarity day-to-day or week-to-week.</p>
+
+
+      </div>
+
+      <a href="/User-and-Asset-Profiling/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Stealth-Port-Scan-SPICE/">Port Scanning Detection (SPICE)</a></h1>
+
+      <div class="entry">
+        <p>Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Traditional IDS use the occurrence of connections on resource IPs within time windows to look for port scanning, and hence miss stealthier slow-randomized attacks. This analytic seeks to assign an anomaly score to estimate the total information of a scan footprint based on the conditional probability distribution of normal traffic packets.</p>
+
+
+      </div>
+
+      <a href="/Stealth-Port-Scan-SPICE/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/SPLUNK-Optimize/">Splunk Optimization</a></h1>
+
+      <div class="entry">
+        <p>…</p>
+
+
+      </div>
+
+      <a href="/SPLUNK-Optimize/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/SIGMA/">Sigma</a></h1>
+
+      <div class="entry">
+        <p>Using SIGMA to make log event analysis shareable across platforms</p>
+
+
+      </div>
+
+      <a href="/SIGMA/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Random-Cut-Forest-AD/">Random Cut Forest for Time Series Anomaly Detection</a></h1>
+
+      <div class="entry">
+        <p>Amazon SageMaker provides an out-of-the-box algorithm for near-real time anomaly detection on streaming time series data</p>
+
+
+      </div>
+
+      <a href="/Random-Cut-Forest-AD/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Port-Scanning-Regression/">Port Scanning Detection (Logistic Regression)</a></h1>
+
+      <div class="entry">
+        <p>Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Several scan detection techniques do not scale to very large networks where packet-level information may not be available. This analytic uses a Baysian logistic regression to detect port scanning using only unidirectional flow data.</p>
+
+
+      </div>
+
+      <a href="/Port-Scanning-Regression/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Port-Scanning-Random-Walk/">Port Scanning Detection (Threshold Random Walk)</a></h1>
+
+      <div class="entry">
+        <p>Attackers will attempt to gain information about a target and look for vulnerabilities prior to an attack through port scanning. Typically scans fall into three categories: vertical scan, horizontal scan, and coordinated scan. This analytic applies ML to network data in search of malicious port scanning behavior</p>
+
+
+      </div>
+
+      <a href="/Port-Scanning-Random-Walk/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Parallel-Detection/">Parallel Detection Engine</a></h1>
+
+      <div class="entry">
+        <p>A parallel detection system provides a why to systemmatically combine alerts from an ML anomaly detection system and a rule based IDS or custom SIEM alerts using a resolver function to reduce false positives.</p>
+
+
+      </div>
+
+      <a href="/Parallel-Detection/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/IDS-Feature-Selection/">Feature Selection for Intrusion Detection Systems</a></h1>
+
+      <div class="entry">
+        <p>It is tedious to test the match between an input element and a rule (signature) by sequentially comparing every element. To improve this, we can cluster rules according to selected criteria. For instance we can put rules with the same constraints in the same group. Kruegel and Toth (2003) introduced a decision tree to detect the most discriminating features for a rule set and allowed it to perform a parallel evaluation of every feature.</p>
+
+
+      </div>
+
+      <a href="/IDS-Feature-Selection/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/IDS-Analytics/">Supervised Learning for Intrusion Detection Systems</a></h1>
+
+      <div class="entry">
+        <p>Traditional IDS take in either network data or process data and generate signatures with are binary codes that represent patterns of behavior. They then attempt to match these signatures with a list of known bad signatures and take an action to stop it. This analytic attemps to improve the signature based detection by performing supervised learning to look for and alert on signatures that are “similar to known bad”</p>
+
+
+      </div>
+
+      <a href="/IDS-Analytics/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Dynamic-Thresholding/">Dynamic Thresholding for Time Series Data</a></h1>
+
+      <div class="entry">
+        <p>Useful logic to apply a moving threshold based on a rolling standard deviation rather than a fixed value</p>
+
+
+      </div>
+
+      <a href="/Dynamic-Thresholding/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Botnet-Detection/">Botnet Panels Detection with Ensembled Decision Trees</a></h1>
+
+      <div class="entry">
+        <p>Botnets are covert networks of connected devices with massive computational power that are most often leveraged for large-scale email spam operations or denial of service (DOS) attack campaigns. While the typical method of Botnet detection is manually intensive and require expert knowledge, decisions trees and supervised learning can aid in the detection of new botnets with similar characteristics of known bad panels.</p>
+
+
+      </div>
+
+      <a href="/Botnet-Detection/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Analytics-Framework/">Analytics Assessment Frameworks</a></h1>
+
+      <div class="entry">
+        <p>Frameworks that are useful when evaulating client cyber security analytic needs</p>
+
+
+      </div>
+
+      <a href="/Analytics-Framework/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/NMAP-Clustering/">NMAP Clustering</a></h1>
+
+      <div class="entry">
+        <p>Kmeans clustering technique using results from the NMAP port scanning tool in order to identify groups of similar IP addresses across a large number of ports, e.g. when auditing the security of a network</p>
+
+
+      </div>
+
+      <a href="/NMAP-Clustering/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Beaconing/">Beaconing Detection</a></h1>
+
+      <div class="entry">
+        <p>It is common for malware to check in with the command and control server once it has infected a host. This activity is typically done in period time intervals and is referred to as “beaconing”.  This analytic attempts to find these regular pings within common network traffic to provide an early warning sign of infection.</p>
+
+
+      </div>
+
+      <a href="/Beaconing/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Analytics-Workflow/">Analytics Workflow Optimization</a></h1>
+
+      <div class="entry">
+        <p>Using freely available resources to streamline the analytic workflow under any client conditions</p>
+
+
+      </div>
+
+      <a href="/Analytics-Workflow/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Phishing-Domain-Detection/">Phishing Domain Detection</a></h1>
+
+      <div class="entry">
+        <p>Uses supervised machine learning to detect phishing domains from the Certificate Transparency log network</p>
+
+
+      </div>
+
+      <a href="/Phishing-Domain-Detection/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/DGA-Detection-Flare/">Domain Generation Algorithm Detection</a></h1>
+
+      <div class="entry">
+        <p>Detects DGAs through machine learning and other techniques</p>
+
+
+      </div>
+
+      <a href="/DGA-Detection-Flare/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/User-Behavior-Clustering/">User Behavior Clustering (Aggregate)</a></h1>
+
+      <div class="entry">
+        <p>The goal of this analytic is to find users that exhibit atypical behavior compared to their peers. This involves performing clustering analysis on a large number of features representing behavior of a particular username  including the frequency of parent and child processes running, the types of hosts they access, the average file size, file extension, drive, etc.</p>
+
+
+      </div>
+
+      <a href="/User-Behavior-Clustering/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Process-Behavior-AD/">Process Behavior Anomaly Detection</a></h1>
+
+      <div class="entry">
+        <p>The goal of this analytic is to find processes that are behaving abnormally by studying the frequency and ordering of their system calls and sub processes.</p>
+
+
+      </div>
+
+      <a href="/Process-Behavior-AD/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Network-Traffic-AD/">Network Traffic Anomaly Detection (One-class SVM/KNN/Cluster-based)</a></h1>
+
+      <div class="entry">
+        <p>This paper presents a detailed, three-algorithm approach to anomaly detection to find intrusions in unlabeled data. This algorithm should detect malicious behaviors including stealthy reconnaissance attempts, backdoor service on a well-known standard port, natural failures in the network, new buffer overflow attacks, HTTP traffic on a nonstandard port, intentionally stealthy attacks, variants of existing attacks in new environments, and so on.</p>
+
+
+      </div>
+
+      <a href="/Network-Traffic-AD/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Data-Stacking/">Data Stacking on Executables</a></h1>
+
+      <div class="entry">
+        <p>This analytic demonstrates how we can provide deep insights into a single varaible–in this case process counts. By creating a live-histogram of process counts and tracking counts over time, we can provide visibility into “low and slow” tactics by revealing uncommon processes or worms that are spreading throughout the network.</p>
+
+
+      </div>
+
+      <a href="/Data-Stacking/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Asset-Behavior-Clustering/">Asset Behavior Clustering (Aggregate)</a></h1>
+
+      <div class="entry">
+        <p>The goal of this analytic is to find hosts that exhibit atypical behavior compared to their peers. This involves performing clustering analysis on a large number of features representing behavior of a particular machine including the frequency of parent and child processes running, the types of accounts accessing the machine, the average file size, file extension, drive, etc.</p>
+
+
+      </div>
+
+      <a href="/Asset-Behavior-Clustering/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Vulnerability-Mgmt-Scorecard/">Vulnerability Management Scorecard</a></h1>
+
+      <div class="entry">
+        <p>Provide scorecards to managers at production sites to track their security hygene progress over time. Incorporates data from a variety of sources to create aggregate views and metrics showing overall vulnerability, update status, and other key descriptions. Previously, client had vulnerability data with no indication of the location/cluster of endpoints. This case involved enriching the data with the site locations, giving a view of the geographic distribution of vulnerability and breakdown of enterprise-wide data into site-specific metrics.</p>
+
+
+      </div>
+
+      <a href="/Vulnerability-Mgmt-Scorecard/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Shared-IP-Usage/">Shared IP Usage</a></h1>
+
+      <div class="entry">
+        <p>Identify shared use of the same IP address to login to to the same account.  This is intended to detect a threat actor accessing multiple accounts from the same location in a short time window.  This rule-based logic considers the observation of more than one login from the same IP address within 24 hours (or a relevant time window).</p>
+
+
+      </div>
+
+      <a href="/Shared-IP-Usage/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Endpoint-&-Asset-Management/">Endpoint & Asset Management</a></h1>
+
+      <div class="entry">
+        <p>Synthesize multiple scanning log sources to create automated list of active assets. Allows for data from multiple sources to be integrated into a singular resource. Consolidated data is used to create a visual dashboard/tool for analysts to track assets, explore new metrics of vulnerability, and benchmark security across entire enterprise.</p>
+
+
+      </div>
+
+      <a href="/Endpoint-&-Asset-Management/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Data-Exfiltration-Alerts/">Data Exfiltration Alerts</a></h1>
+
+      <div class="entry">
+        <p>Email alerts of top potential data exfiltration events/entities each day. Dashboard detailing each event, and providing context about the characteristics that triggered alert specifically. Leverages combinations of thresholds/rules/outlier detection across multiple data sources (linked by individual user or entity) to create dynamic and holistic measures of anomalous behavior. Information was previously collected by standard security solutions, but not useful until abnormal activity was tracked across multiple tools.</p>
+
+
+      </div>
+
+      <a href="/Data-Exfiltration-Alerts/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Anomalous-Login-Activity/">Anomalous Login Activity</a></h1>
+
+      <div class="entry">
+        <p>Login activity may not be identifiable as suspicious given a rule or signature-based approach.  This analytics provides a weighted risk score to identify anomalous login activity that can then be screened or review.  This approach considers 12 individual criteria that are weighted and combined.  Weights can be assigned using an analytical hierarchy process with threat experts.</p>
+
+
+      </div>
+
+      <a href="/Anomalous-Login-Activity/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Email-Levenshtein-Distance/">Levenshtein for spoofing emails/urls</a></h1>
+
+      <div class="entry">
+        <p>Some phishing attemps may use domains and emails similar in name to the company they are targeting. (ex. sending an email as rozanski_horaceo@beh.com saying to enter an updated client list and log-in credentials at www.booz-ellen-hamiltin.com/I_LOVE_PHISHING ). Normal Regular expressions wouldn’t pick up on this obvious trick, but comparing sender email addresses and url domains with a list of known Executives/internal domains using a Levenshtein distance would show this.</p>
+
+
+      </div>
+
+      <a href="/Email-Levenshtein-Distance/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/DGA-Detection-CNN/">CNN for DGAs (Domain Generating Algorithms)</a></h1>
+
+      <div class="entry">
+        <p>Most URL paths follow some degree of randomness and patterns. DGA’s usually have more randomness as the urls are created in bulk using some algorithm. These patterns may be impossible to detect by humans or even Regex, but Neural Networks have been shown to have high accuracy at tasks like this. Using CNNs on URLs and trained using PhishTank and Proxy labelled Phishing URLs could provide some ‘score’ for phishing attempts which get through the firewall.</p>
+
+
+      </div>
+
+      <a href="/DGA-Detection-CNN/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/Firewall-Time-Series/">Firewall Time Series Anomaly Detection</a></h1>
+
+      <div class="entry">
+        <p>Time series analysis attempts to track individual characteristics (e.g. Source IP and destination ports) over time to find unusual trends or activity at the perimeter of the network. This analytic technique attempts to find traces of port scanning or the initial signs of malware in a network. Time series forecasting and STL decomposition are used to find outliers within a signal that is cyclical or globally trending.</p>
+
+
+      </div>
+
+      <a href="/Firewall-Time-Series/" class="read-more">Read More</a>
+    </article>
+  
+</div>
+    </div>
+
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.boozallencsn.com/commercial-analytics/"><i class="svg-icon github"></i></a>
+
+
+
+
+
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+const search = instantsearch({
+  appId: 'DTPR54WAFN',
+  apiKey: '035b51d8a32358cea427dcfd8cfba994',
+  indexName: 'ucp_search'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search library...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+</style>
+
+  </body>
+</html>

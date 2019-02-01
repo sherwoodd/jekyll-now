@@ -7,5 +7,23 @@ Some phishing attemps may use domains and emails similar in name to the company 
 Resources: <Splunk as a levenshtein distance implementation, python also has some modules to do this as well. Not too difficult to write yourself either.>
 
 Owner: Benjamin Hahn
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
 * Internal
+
+**Data Manipulation/EDA:** compiling a list of high profile emails+domains with high likelihood of being targeted.
+
+[Github](...)
+
+**Technical details:** lowest levenshtein distance given domain and/or email address. Possible alert if under some threshold
+
+### Reltional
+----
+**Tactics:**
+* Initial Access
+* Pre-ATT&CK
+
+**Motivations:**
+* All

@@ -7,4 +7,19 @@ A parallel detection system provides a why to systemmatically combine alerts fro
 Resources: <https://pdfs.semanticscholar.org/1d3e/31c07bdc98860336b0970902571315a39c21.pdf?_ga=2.186044973.529039304.1547837895-752466249.1547837895>
 
 Owner: David Sherwood
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
+
+**Data Manipulation/EDA:** ...
+
+[Github](...)
+
+**Technical details:** …
+
+### Reltional
+----
+**Tactics:**
+
+**Motivations:**

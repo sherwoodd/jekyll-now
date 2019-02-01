@@ -7,4 +7,19 @@ Useful logic to apply a moving threshold based on a rolling standard deviation r
 Resources: <…>
 
 Owner: David Sherwood
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
+
+**Data Manipulation/EDA:** ...
+
+[Github](...)
+
+**Technical details:** …
+
+### Reltional
+----
+**Tactics:**
+
+**Motivations:**

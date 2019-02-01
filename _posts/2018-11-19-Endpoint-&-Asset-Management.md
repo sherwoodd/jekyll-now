@@ -7,10 +7,25 @@ Synthesize multiple scanning log sources to create automated list of active asse
 Resources: <…>
 
 Owner: Jillian Puskas
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
 * DNS
 * DHCP
 * Endpoint
 * Vulnerability Scanners
 * Malware Scanner
 * Databases
+
+**Data Manipulation/EDA:** All converted to PySpark dictionary objects. Each data source is fit to a standard schema from individual, uniquely structured SQL tables. Manipulation involves extracting relevant data from tables and converting to constant schema to merge information about same assets/locations. As necessary, perform feature engineering/extraction from original tables.
+
+[Github](...)
+
+**Technical details:** Use new tables of information and aggregated views to provide new metrics like site grades, stronger integration into SOC and Incident Response capabilities.
+
+### Reltional
+----
+**Tactics:**
+
+**Motivations:**

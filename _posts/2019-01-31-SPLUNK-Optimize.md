@@ -7,4 +7,19 @@ title: Splunk Optimization
 Resources: <…>
 
 Owner: Zander Lanfried
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
+
+**Data Manipulation/EDA:** ...
+
+[Github](...)
+
+**Technical details:** …
+
+### Reltional
+----
+**Tactics:**
+
+**Motivations:**

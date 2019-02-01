@@ -7,7 +7,26 @@ It is common for malware to check in with the command and control server once it
 Resources: <http://www.austintaylor.io/detect/beaconing/intrusion/detection/system/command/control/flare/elastic/stack/2017/06/10/detect-beaconing-with-flare-elasticsearch-and-intrusion-detection-systems/>
 
 Owner: Zander Lanfried
-Data Sources:
+
+### Technical
+----
+**Data Sources:**
 * DNS
 * DHCP
 * Network Gear
+
+**Data Manipulation/EDA:** ...
+
+[Github](https://github.com/austin-taylor/flare)
+
+**Technical details:** …
+
+### Reltional
+----
+**Tactics:**
+* Command & Control
+
+**Motivations:**
+* Sabotage
+* Vandalism
+* Theft
